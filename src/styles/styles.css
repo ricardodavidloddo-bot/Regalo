@@ -3,6 +3,7 @@
 :root {
   --color-primario: #830806;
   --color-primario-oscuro: #5e0604;
+  --color-primario-claro: #8c0806;
   --color-secundario: #fbdbdb;
   --color-text: #ffffff;
 
@@ -35,32 +36,32 @@ body {
 
 .imagenes1 {
   position: fixed;
-  width: 120px;
-  left: 5px;
-  bottom: 200px;
+  width: 90px;
+  left: 1px;
+  bottom: 240px;
   z-index: 9999;
 }
 .imagenes2 {
   position: fixed;
-  width: 120px;
-  right: 5px;
-  bottom: 200px;
+  width: 90px;
+  right: 1px;
+  bottom: 240px;
 
   z-index: 9999;
 }
 .imagenes3 {
   position: fixed;
-  width: 120px;
+  width: 90px;
   z-index: 9999;
-  left: 5px;
-  top: 180px;
+  left: 1px;
+  top: 120px;
 }
 .imagenes4 {
   position: fixed;
-  width: 120px;
+  width: 90px;
   z-index: 9999;
-  right: 5px;
-  top: 180px;
+  right: 1px;
+  top: 120px;
 }
 
 @keyframes corazon {
@@ -87,7 +88,7 @@ body {
 
 .corazon {
   position: fixed;
-  top: 220px;
+  top: 150px;
   right: 44%;
   z-index: 90000;
   opacity: 0.6;
