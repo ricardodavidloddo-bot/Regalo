@@ -1,0 +1,25 @@
+.fechas{
+    width: 100vw;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+.fechas_title{
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem;
+}
+.fechas_text{
+    padding: 1.5rem;
+    margin: 0;
+    text-align: center;
+}

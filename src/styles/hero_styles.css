@@ -1,0 +1,27 @@
+.hero{
+    width: 100vw;
+    height: 100vh;
+    
+
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../../media/img/1d46156795eb506b9d9f5d7898989790.jpg) cover center repeat;
+
+}
+
+
+.hero_title{
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem;
+}
+.hero_text{
+    padding: 1.5rem;
+    margin: 0;
+    text-align: center;
+}

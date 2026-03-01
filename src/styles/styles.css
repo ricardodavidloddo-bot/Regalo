@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-primario: #830806;
+  --color-primario-oscuro: #5e0604;
+  --color-secundario: #fbdbdb;
+  --color-text: #ffffff;
+
+  --color-degradado: #ee0039;
+  --color-degradado2: #54091b;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: url(../../media/img/1d46156795eb506b9d9f5d7898989790.jpg);
+  background-size: cover;
+  background-position: center;
+  color: var(--color-text);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+
+  position: absolute;
+}
+
+.imagenes1 {
+  position: fixed;
+  width: 120px;
+  left: 5px;
+  bottom: 200px;
+  z-index: 9999;
+}
+.imagenes2 {
+  position: fixed;
+  width: 120px;
+  right: 5px;
+  bottom: 200px;
+
+  z-index: 9999;
+}
+.imagenes3 {
+  position: fixed;
+  width: 120px;
+  z-index: 9999;
+  left: 5px;
+  top: 180px;
+}
+.imagenes4 {
+  position: fixed;
+  width: 120px;
+  z-index: 9999;
+  right: 5px;
+  top: 180px;
+}
+
+@keyframes corazon {
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  80% {
+    transform: scale(1);
+  }
+}
+
+.corazon {
+  position: fixed;
+  top: 220px;
+  right: 44%;
+  z-index: 90000;
+  opacity: 0.6;
+  animation:  3s corazon ease-in-out infinite;
+  width: 50px;
+}
