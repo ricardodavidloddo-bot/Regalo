@@ -1,8 +1,14 @@
 .FAQ{
-    margin-top: 55%;
+    margin-top: 65px;
 
-    padding: 1.5rem;
+    padding: 2rem;
 
   
-    padding-bottom: 75%;
+    padding-bottom: 230px;
+}
+
+@media (min-width: 1200px) {
+p{
+    font-size: 1.3rem;
+}
 }
